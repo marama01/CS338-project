@@ -1,0 +1,3 @@
+Need to update so it delets all relevant entries...
+MariaDB [testdb]> DELETE FROM Brand WHERE BrandID = '3';
+ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`testdb`.`Product`, CONSTRAINT `Product_ibfk_1` FOREIGN KEY (`BrandID`) REFERENCES `Brand` (`BrandID`))

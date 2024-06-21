@@ -1,0 +1,15 @@
+NOTE:For R7 and R9, the backend will check if a BrandID exists if so it will
+update else it will insert.
+`
+  query = f"SELECT * FROM Brand WHERE BrandID = '{brandID}'"
+  cursor.execute(query)
+  res = cursor.fetchone()
+  if not res:
+`
+sample output for:
+"SELECT * FROM Brand WHERE BrandID = '1'"
++---------+-----------+
+| BrandID | BrandName |
++---------+-----------+
+|       1 | Brand A   |
++---------+-----------+
