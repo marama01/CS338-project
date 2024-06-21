@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brands - Holt Renfrew Management System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Holt Renfrew Management System</h1>
+        <!-- <div class="user-login">
+            <a href="login.html">
+                <i class="fas fa-user"></i>
+            </a>
+        </div> -->
+        <button class="btn-home" onclick="goHome()">
+            <i class="fas fa-home"></i> Home
+        </button>
+    </header>
+    <!-- <nav>
+        <a href="Brand.html">Brands</a>
+        <a href="Product.html">Products</a>
+        <a href="branches.html">Branches</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="deliveries.html">Deliveries</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="performance.html">Performance</a>
+        <a href="sales.html">Sales</a>
+    </nav> -->
+    <main>
+        <div class="section">
+            <h2>Brands</h2>
+            <!-- <p>Manage and view brands here.</p> -->
+            <button class="btn-open-popup" onclick="add('brand')">
+                <i class="fas fa-plus"></i>
+            </button>
+            <div id="addTable"></div>
+            <table id="brand-table"></table>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+    <script>
+        init("brand");
+    </script>
+</body>
+</html>
