@@ -37,7 +37,7 @@
 
 1. **Clone project to local:**
    ```
-   git clone https://github.com/daveqwerty1007/holt-renfrew-management-system.git
+   git clone https://github.com/marama01/CS338-project.git
    ```
 
 1. **Set up the MySQL Database:**
