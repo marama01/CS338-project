@@ -72,5 +72,5 @@
 - The `--debug` flag in Flask is optional but recommended during development for better error messages and automatic reloading.
 
 ## Current Features
-Currently it only supports brand to show, edit, add, delete the brand table in frontend.
+Currently it only supports brand to show, edit, add, delete the brand table in frontend.Also, it supports brand to view all related products and information for a specific brand and summarize all related products for all brands in frontend.
 
