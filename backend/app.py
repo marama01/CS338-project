@@ -50,6 +50,20 @@ def get_brands():
     #    cursor.execute(query)
     #    return "good"
 
+@app.route('/brand-summary/', methods=['GET'])
+def getBrandSummary():
+    connection = create_connection()
+    cursor = connection.cursor(dictionary=True)
+    query = f"SELECT Brand.BrandName, COUNT(Product.ProductID), AVG(Product.ProductPrice) \
+              FROM Brand \
+              JOIN Product ON Product.BrandID = Brand.BrandID \
+              GROUP BY Brand.BrandID"
+    cursor.execute(query)
+    rows = cursor.fetchall()
+    jrows = jsonify(rows)
+    app.logger.info(jrows)
+    return jrows
+
 @app.route('/brand/<brand_id>', methods=['GET', 'POST', 'DELETE'])
 def brandId(brand_id):
     connection = create_connection()
@@ -57,7 +71,11 @@ def brandId(brand_id):
     #app.logger.info("In /brands/", brand_id)
     if request.method == 'GET':
         # TODO: Modify this to fetch only id
-        cursor.execute("SELECT * FROM Brand")
+        query = f"SELECT Brand.BrandName, Product.ProductName, Product.ProductPrice \
+                  FROM Brand \
+                  JOIN Product on Product.BrandID = Brand.BrandID \
+                  WHERE Brand.BrandID = {brand_id}"
+        cursor.execute(query)
         rows = cursor.fetchall()
         jrows = jsonify(rows)
         app.logger.info(jrows)
@@ -99,10 +117,13 @@ def brandId(brand_id):
         brandID = data["BrandID"]
         query = f"DELETE FROM Brand WHERE BrandID = '{brandID}'"
         app.logger.info("query:" + query)
-        cursor.execute(query)
-        connection.commit()
-        ret = cursor.fetchall()
-        return jsonify(ret)
+        try:
+            cursor.execute(query)
+            connection.commit()
+            ret = cursor.fetchall()
+            return jsonify(ret)
+        except:
+            return "Unable to delete. (Probably due to deleting an entry where a foreign key is needed.)"
 
 
 @app.route('/product', methods=['GET'])
@@ -115,3 +136,4 @@ def get_products():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
