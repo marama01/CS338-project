@@ -41,12 +41,14 @@ CREATE TABLE `Order` (
     OrderNum INT PRIMARY KEY,
     ProductID INT,
     Quantity INT,
-    Price DECIMAL(10, 2),
     CustomerID INT,
     OrderDate DATETIME,
+    EmployeeID INT,
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
-    FOREIGN KEY (ProductID) REFERENCES Product(ProductID)
+    FOREIGN KEY (ProductID) REFERENCES Product(ProductID),
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID)
 );
+
 
 CREATE TABLE Shipping (
     ShippingID INT PRIMARY KEY,

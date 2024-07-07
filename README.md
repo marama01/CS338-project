@@ -35,12 +35,17 @@
 ## How to Start
 1. **use `cd` to enter the folder you want to store this project. If we want to store it in Documents, we should run command `cd Documents`.**
 
-1. **Clone project to local:**
+2. **Clone project to local:**
    ```
    git clone https://github.com/marama01/CS338-project.git
    ```
+3. **This is an optional step, users can first run command `cd CS338-project`, and then generate production data by running**
+   ```
+   python3 gen_prod_data/gen_prod_data.py
+   ```
+   **Then users can see all the production data in folder** `gen_prod_data`.
 
-1. **Set up the MySQL Database:**
+3. **Set up the MySQL Database:**
    ```bash
    mysql -u root -p < sql/setup.sql
    ```
@@ -49,17 +54,17 @@
    mysql -u root -p"yourpassword" < sql/setup.sql
    ```
 
-2. **Load Sample Data:**
+4. **Load Sample Data:**
    ```bash
    mysql -u root -p --local-infile < sql/load_sample.sql
    ```
 
-3. **Run the Flask Backend:**
+5. **Run the Flask Backend:**
    ```bash
    flask --app backend/app run --debug
    ```
 
-4. **Open the Frontend:**
+6. **Open the Frontend:**
    - Open `index.html` in your web browser to access the application.
 
 ## Additional Notes
@@ -68,3 +73,4 @@
 
 ## Current Features
 Currently it only supports brand to show, edit, add, delete the brand table in frontend.
+

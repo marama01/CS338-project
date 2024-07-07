@@ -1,0 +1,530 @@
+BrandName	COUNT(Product.ProductID)	AVG(Product.ProductPrice)
+abc	67	497.026716
+Johnson Inc	56	524.994107
+Lewis PLC	59	452.550847
+Smith Inc	55	488.451455
+Franco-Raymond	46	531.838913
+"Hernandez	49	470.855510
+Crawford Group	53	463.361321
+Green Inc	41	571.201463
+"Wilkinson	47	471.304681
+Ruiz Inc	3	535.090000
+Warner-Campbell	1	875.340000
+Keller Inc	5	630.194000
+Owens-Butler	2	590.775000
+Fernandez-Ramirez	4	287.685000
+Cole-Mclaughlin	3	745.106667
+"Dickerson	6	439.610000
+"Little	1	679.650000
+"Hopkins	2	425.355000
+Doyle-Curry	5	389.534000
+"Hayes	2	776.990000
+Jennings and Sons	6	452.530000
+Mills and Sons	3	359.286667
+Mendoza-Phillips	1	707.450000
+Bailey LLC	4	669.645000
+Orr-Simpson	5	565.826000
+Suarez-Hamilton	6	489.521667
+Jimenez Inc	3	473.226667
+Mitchell-Taylor	1	853.990000
+"Phillips	1	266.820000
+"Benson	4	485.302500
+Graham LLC	5	449.968000
+Evans PLC	1	786.270000
+Fischer Inc	3	347.633333
+Clarke PLC	1	837.170000
+Duncan-Swanson	4	565.645000
+Barnes-Boyd	4	484.920000
+Porter and Sons	2	587.225000
+Coleman-Allen	3	351.400000
+Swanson-Martin	4	446.042500
+"Holland	1	163.030000
+"Richardson	1	625.050000
+"Johnson	5	488.374000
+Smith-Maldonado	4	486.210000
+Gonzalez-Lee	2	120.115000
+Wallace-Davis	3	536.370000
+"Ward	4	634.660000
+"Warren	5	182.130000
+Glenn-Flores	2	207.855000
+"Jacobs	5	751.194000
+"Cook	2	438.810000
+Smith-Lee	2	558.355000
+Luna-Poole	4	450.790000
+Stevens Ltd	2	615.040000
+Sheppard PLC	2	704.595000
+"Martinez	4	623.840000
+"Miller	3	448.243333
+Murphy-Welch	3	417.830000
+Hill-Hunter	5	453.320000
+Reyes-Davis	4	374.987500
+Garcia-Hamilton	4	595.955000
+"Smith	3	625.636667
+Mack-Schultz	3	415.946667
+Williams-Myers	2	452.150000
+Cooper Inc	3	528.896667
+Brown Inc	3	478.220000
+Rodriguez-Smith	3	771.110000
+Gallagher-Foster	2	367.605000
+Lopez LLC	5	335.790000
+"Gomez	3	183.466667
+Miles-Herman	1	215.460000
+Molina PLC	2	581.790000
+Martinez Inc	4	685.072500
+"Nelson	3	352.006667
+Hensley and Sons	1	280.820000
+Craig-Finley	3	351.160000
+Reed and Sons	3	555.790000
+Riley PLC	1	253.060000
+Reed-Fernandez	3	261.133333
+"Walker	2	394.160000
+"Andrews	3	598.530000
+Santiago PLC	1	241.150000
+Baker-Trevino	1	692.210000
+"Bradley	7	351.970000
+Bell LLC	2	572.855000
+King-Mendoza	3	753.140000
+Smith-Gomez	11	526.094545
+Walter Inc	5	551.516000
+Bell-Trujillo	4	596.202500
+Warren-Green	6	554.530000
+"Baker	2	880.695000
+"Parker	4	312.630000
+"Jenkins	8	516.460000
+"Leblanc	2	214.585000
+James Ltd	1	953.390000
+"Johnson	1	155.320000
+Dalton Ltd	1	638.530000
+Jennings Ltd	1	116.330000
+Williams-Ortiz	1	139.860000
+Fletcher-Boyle	1	553.500000
+"Wagner	1	217.500000
+Kidd-White	1	69.530000
+Green-Duffy	1	623.030000
+Cruz-Richard	1	965.930000
+"Mcdonald	1	424.950000
+Rivera Inc	1	55.490000
+Howard-Parker	1	405.790000
+Ramirez-Lang	2	149.700000
+"Johnson	3	606.326667
+"Williams	3	304.203333
+Hall LLC	2	676.920000
+York PLC	1	40.730000
+Burns PLC	2	642.030000
+"Brown	1	416.760000
+Anderson-Dalton	1	706.860000
+Lopez Group	1	194.600000
+"Campos	2	170.520000
+Wilkinson Inc	2	694.030000
+Martinez and Sons	1	634.030000
+Ballard PLC	1	285.410000
+"Wiley	2	391.895000
+Diaz and Sons	1	128.650000
+Riggs-Smith	1	743.480000
+"Brooks	2	791.270000
+"Martinez	1	193.640000
+Harris Inc	1	117.650000
+"Lopez	1	59.800000
+Crawford PLC	2	424.935000
+"Spencer	1	380.410000
+"Mitchell	1	579.710000
+Cordova Ltd	1	573.630000
+Griffith and Sons	1	308.240000
+Ryan-Sanders	1	222.770000
+"Smith	1	893.830000
+Carter-George	2	755.050000
+Baker PLC	1	793.080000
+Meyer Ltd	1	788.790000
+Salazar Inc	1	529.080000
+Reynolds-Carroll	1	622.530000
+Brown PLC	1	646.740000
+"Humphrey	1	138.420000
+"Johnson	1	790.480000
+Watkins-Cole	1	121.800000
+"Ferguson	1	83.420000
+Camacho Inc	1	266.410000
+Burton Ltd	1	21.140000
+Flynn-Jones	1	834.990000
+Bell Inc	1	249.710000
+Harrington Ltd	1	505.940000
+Thompson-Davis	1	255.040000
+Mccoy LLC	1	525.440000
+Mayer Ltd	1	500.690000
+Black-Townsend	2	480.350000
+Fisher-Mejia	2	707.670000
+"Diaz	1	59.060000
+"Kennedy	1	26.290000
+Briggs PLC	1	881.690000
+Hamilton-Oliver	2	564.960000
+Lawrence-Goodwin	1	228.650000
+"Gibson	1	583.520000
+Garcia LLC	1	369.060000
+Wells-Landry	1	512.810000
+Lane-Mendez	1	84.630000
+"Olsen	3	783.016667
+"Hogan	2	129.830000
+Freeman and Sons	1	331.460000
+Patton-Melendez	1	804.450000
+"Taylor	1	770.570000
+Martinez Inc	1	859.570000
+Garcia-Banks	3	752.220000
+Mason LLC	1	571.040000
+"Mendez	1	168.420000
+"Mcclain	2	596.485000
+Wang-Brown	1	414.630000
+"Brown	1	590.600000
+Heath LLC	2	403.995000
+"Lucas	1	307.260000
+Erickson LLC	1	527.740000
+Hayes and Sons	1	150.740000
+"Bennett	1	343.690000
+"Holmes	1	647.270000
+Brown Inc	1	282.770000
+Mckinney-Tran	1	794.700000
+Suarez-Smith	2	341.930000
+"Mendoza	1	39.820000
+"Miller	3	649.976667
+"Williams	1	877.670000
+"Walters	1	221.740000
+Levy LLC	1	285.900000
+Moody PLC	2	563.445000
+Padilla-Fowler	2	451.370000
+Gardner and Sons	1	954.150000
+Williams-Davis	1	726.590000
+Klein-Gordon	1	564.000000
+Harris-Watson	1	222.610000
+"Martinez	1	604.740000
+"Simmons	1	373.230000
+"Allen	1	281.420000
+Reyes LLC	1	927.020000
+Harrell-Walters	1	503.880000
+"Gonzalez	1	307.290000
+"Arnold	1	680.530000
+"Johnson	2	816.115000
+"Nash	1	174.820000
+Ortiz-Wells	1	33.490000
+Alvarez-Davis	1	411.360000
+"Hamilton	1	871.310000
+"Chavez	1	359.930000
+Murphy-Palmer	2	176.255000
+Holloway-Weeks	1	862.480000
+"Bridges	1	955.120000
+Farrell-Paul	2	500.195000
+"King	1	867.850000
+Franklin Ltd	1	414.880000
+Simpson Ltd	1	680.410000
+Bond LLC	1	732.250000
+Murray-Schultz	1	903.790000
+Barnes-Wall	1	600.530000
+"Boyd	1	50.450000
+Thompson-Morris	2	923.630000
+Herring and Sons	2	852.345000
+Romero Group	2	531.930000
+Cummings-Garcia	1	965.940000
+Atkins-Ashley	1	714.880000
+Shannon Group	2	451.095000
+"Carr	1	194.270000
+Turner PLC	2	567.445000
+Holland-Ramsey	1	541.160000
+Johnson LLC	1	229.830000
+Mitchell and Sons	2	463.465000
+"Sims	1	138.550000
+Gill-Reed	1	950.130000
+Jackson Group	1	158.340000
+George-Burton	2	842.670000
+Black-Scott	2	306.650000
+Meza Group	1	854.680000
+Montes Inc	1	132.070000
+"Rodriguez	1	46.160000
+Roberts and Sons	1	520.820000
+"Whitaker	1	488.160000
+"Robertson	1	131.310000
+Smith-Sheppard	1	913.470000
+"Ball	1	725.640000
+"Phillips	1	720.660000
+York-Miller	1	552.090000
+Scott PLC	1	11.710000
+"Hernandez	1	957.990000
+"Phillips	1	987.620000
+"Berger	1	457.800000
+Calderon Inc	2	823.135000
+"Marsh	1	147.390000
+"Cantrell	1	884.120000
+"English	1	589.740000
+Pittman-Morse	1	286.210000
+"Jackson	1	482.700000
+Cannon-Taylor	1	207.530000
+"Stone	2	477.775000
+Neal-Burns	1	689.650000
+Lawrence-Bailey	1	713.450000
+"Baker	1	236.500000
+Lambert and Sons	1	448.240000
+"Scott	1	798.240000
+"Barr	1	134.800000
+"Hunter	1	260.300000
+"Hill	3	496.923333
+Hill PLC	1	388.630000
+"Thompson	1	32.480000
+"Weber	1	922.060000
+"Bailey	1	755.150000
+"Davis	1	11.870000
+Wood LLC	2	306.825000
+"Rice	1	881.180000
+Harrison-Woodard	2	399.230000
+Wilson-Roberts	1	678.440000
+"Kim	1	241.310000
+"Owens	2	739.525000
+Brooks-Brown	1	545.800000
+Cummings Inc	1	85.090000
+Garcia Ltd	1	332.560000
+Cooper Ltd	1	230.720000
+Coleman Group	1	391.510000
+Simon-Stewart	1	752.710000
+Jennings-Smith	1	394.060000
+"Livingston	1	608.550000
+Lopez Inc	1	35.550000
+Murphy-West	1	841.690000
+"Peterson	1	214.690000
+Smith Ltd	1	49.820000
+Hamilton and Sons	2	146.530000
+Tucker-Myers	1	707.650000
+Parker-Owen	1	644.110000
+Barry-Hughes	1	68.630000
+Jones LLC	1	297.200000
+"Robertson	2	332.415000
+Boyd LLC	1	517.920000
+"Snyder	2	706.480000
+"Rogers	1	152.160000
+Holt PLC	1	571.130000
+Atkins LLC	1	462.270000
+Robbins Ltd	1	786.630000
+Howard-Walker	2	623.540000
+"Jefferson	1	946.290000
+Murphy Inc	1	355.360000
+"Elliott	1	741.590000
+Sanders PLC	1	494.690000
+Walker PLC	2	450.620000
+Clark-Patterson	1	399.820000
+Peterson-Thomas	1	974.080000
+"Clark	1	937.220000
+Collins LLC	1	24.030000
+Rogers-Sanders	1	610.580000
+Brown LLC	1	187.060000
+"Martin	1	832.360000
+Duncan-Anderson	1	24.920000
+"Silva	1	909.410000
+Hamilton-Jones	3	524.590000
+Garrett-Reynolds	1	107.170000
+Lewis PLC	1	393.650000
+Peters Group	1	338.450000
+Mills-Greene	1	662.180000
+"Flores	1	759.080000
+"Silva	1	967.250000
+"Richmond	1	710.650000
+"Hess	1	712.080000
+Garrison Inc	1	20.330000
+Richards-Bender	1	577.690000
+Turner-Ramos	1	48.160000
+"Brown	1	842.080000
+Turner PLC	1	208.930000
+Stein-Gordon	1	592.680000
+Brooks-Lane	1	233.860000
+Walker LLC	1	446.180000
+Moody-Martin	1	236.510000
+Jacobson Group	1	652.310000
+Mills-Pearson	2	581.960000
+Alexander-Brown	2	538.265000
+"Griffith	1	774.470000
+Coleman LLC	1	259.980000
+"Smith	2	716.235000
+"Lee	1	642.440000
+Jackson-Peters	1	108.310000
+"Lyons	1	789.810000
+Macdonald-Garza	1	658.570000
+Hughes-Warren	2	418.045000
+Bird Group	1	827.460000
+"Simpson	1	479.330000
+Conley Ltd	1	396.190000
+"Patel	1	282.470000
+Dillon-Watkins	3	762.463333
+Brewer-Sexton	1	770.880000
+"Ingram	1	368.180000
+Ruiz-Allen	1	726.610000
+Baldwin and Sons	1	630.150000
+Mendoza LLC	1	119.170000
+Hurst-Hancock	1	344.940000
+Harrison-Mueller	1	598.800000
+"Marks	1	553.640000
+Williams-Mcgrath	1	825.890000
+Lucas-Maxwell	1	895.390000
+Kent-Rodriguez	1	666.220000
+Thompson Group	1	689.160000
+Williams-Cantu	1	358.540000
+Yoder-Salazar	1	545.010000
+Simpson and Sons	1	652.760000
+Arnold Inc	1	669.460000
+Barrett-Good	1	378.410000
+Bowman Group	1	318.670000
+"Johnson	1	125.950000
+"Young	1	408.810000
+Fowler PLC	1	976.030000
+Navarro-Anderson	1	253.400000
+Martin-Bell	1	48.440000
+Thomas and Sons	1	869.310000
+"Frazier	2	673.990000
+Weaver-Swanson	1	30.130000
+"Fox	2	458.995000
+Powell-Anderson	1	667.970000
+Richardson Ltd	1	127.920000
+Gilbert PLC	1	589.670000
+Salas-Jones	1	976.130000
+Mendez and Sons	1	651.650000
+Erickson and Sons	1	534.450000
+Martinez Group	1	217.420000
+Kim and Sons	1	809.470000
+Little-Johnson	1	72.820000
+"Sherman	1	512.430000
+Galvan-Knapp	1	90.140000
+Richard Inc	1	97.040000
+"Estrada	1	729.660000
+Henry-Brewer	2	257.020000
+Robles-Ramos	1	247.620000
+"Mitchell	1	378.230000
+Rogers-Mueller	1	935.720000
+"Lambert	1	666.030000
+Austin-James	1	201.830000
+Prince-Dillon	1	935.440000
+"Allen	1	863.300000
+"Snow	1	482.060000
+Ford-Cole	1	524.650000
+King Group	1	131.120000
+Castillo-Summers	1	755.580000
+Johnson-Meyer	1	597.880000
+Martinez PLC	1	760.690000
+Vaughan-Griffin	1	336.800000
+Robinson-House	1	166.610000
+Martinez-Ramirez	2	542.680000
+Rasmussen Group	1	762.370000
+Moss-Lawson	1	282.430000
+Morales-Roberts	1	189.470000
+Jones PLC	1	438.930000
+Fowler-Hawkins	1	859.240000
+Lynch Inc	1	105.100000
+Parks Ltd	1	713.340000
+"Woods	1	677.940000
+Perez and Sons	1	556.980000
+"Henderson	1	565.250000
+"Kim	1	396.050000
+Lee-Hobbs	1	813.090000
+"Williams	1	404.060000
+Stewart-Bryan	1	794.730000
+"Spencer	1	454.740000
+Ellis PLC	1	756.140000
+Morales Group	2	238.785000
+"Martin	1	84.150000
+Mcdaniel-Madden	1	569.440000
+"Gonzales	1	975.210000
+Brewer-Perry	1	542.460000
+"Zimmerman	1	541.130000
+Wood Ltd	1	111.890000
+Williams Group	1	454.920000
+"Lee	1	86.650000
+Miller-Murphy	1	967.200000
+"Jones	1	917.580000
+"Lucero	1	732.160000
+Jackson LLC	1	549.700000
+Jackson LLC	2	468.305000
+Taylor LLC	1	57.130000
+Davis-Jones	1	986.300000
+"Martinez	1	593.110000
+Rogers LLC	1	417.980000
+"Pugh	1	201.760000
+"Smith	1	893.400000
+Weber PLC	2	183.050000
+"Anthony	1	648.690000
+Heath-Soto	1	982.990000
+"Nunez	1	716.640000
+Warner LLC	2	448.170000
+"Mccoy	1	891.430000
+Larson-Colon	1	134.840000
+Hardy-Price	1	826.070000
+"Cooper	1	373.370000
+Green and Sons	1	562.010000
+Kent-Smith	1	310.650000
+"Rivera	1	242.810000
+Gamble and Sons	2	489.405000
+"Smith	1	74.900000
+Bryant-Davis	1	958.220000
+Smith PLC	1	282.680000
+"Contreras	1	65.960000
+Baker PLC	1	252.410000
+"Barnett	1	764.790000
+Duran-Harrison	1	540.840000
+Mclaughlin-Randolph	2	496.245000
+"Simon	1	387.070000
+Williams-Mccarthy	1	472.500000
+Perez-Calderon	1	213.910000
+"Jones	1	87.670000
+"Owen	1	761.000000
+Ortiz Group	1	104.900000
+Coleman-Meyer	1	690.240000
+"Grimes	1	699.870000
+Allen and Sons	1	77.020000
+Franklin-Hayes	1	356.210000
+"Moore	1	81.610000
+Wise Ltd	1	755.140000
+"Macdonald	1	691.170000
+Lee Ltd	1	22.270000
+Gray-Taylor	1	195.160000
+Barr and Sons	2	652.225000
+Aguilar Group	1	749.960000
+Bradley-Rodgers	1	502.870000
+"Riley	1	483.800000
+"Aguilar	1	931.300000
+Garcia-Phelps	2	554.600000
+Mcfarland-Parker	1	922.500000
+Ramos-Carr	1	466.640000
+Banks Ltd	1	82.380000
+Wells-Webb	1	995.200000
+Burns-Parker	1	662.580000
+Chaney-Orr	1	944.000000
+Jones LLC	2	346.180000
+Graves Ltd	2	669.620000
+Griffin Group	1	323.910000
+"Vaughan	1	24.960000
+Hayes-King	1	368.350000
+"Robles	1	110.930000
+Hartman Ltd	1	774.610000
+Baxter PLC	2	616.510000
+"Thomas	1	769.820000
+"Brewer	1	581.590000
+"Cisneros	1	666.170000
+"Sawyer	1	511.560000
+Soto Inc	1	389.910000
+Brandt Ltd	1	948.130000
+Young and Sons	1	616.330000
+Pierce PLC	1	674.220000
+Hopkins and Sons	1	296.180000
+Cooper-Harris	1	297.560000
+Villa-Myers	1	759.390000
+Roach Group	1	798.840000
+Gonzalez-Brown	1	674.050000
+Simmons LLC	1	56.440000
+Rivera-Howard	1	157.370000
+Marks-Flores	1	981.870000
+Mueller and Sons	1	646.090000
+Lynch and Sons	2	830.115000
+Thompson Ltd	1	543.230000
+Moore-Reese	1	527.510000
+Lindsey-Estrada	1	554.810000
+Burgess PLC	1	710.060000
+Cruz-Warner	1	204.980000
+Rogers Inc	1	40.890000
+"Bass	1	439.920000
+Rice-Francis	1	789.410000
+Brown Group	1	428.390000
+"Miller	1	52.040000
+Erickson-Moore	1	120.390000
+Lyons-Cohen	1	413.270000
+Howard-Gibson	1	612.930000
+Robertson-Reyes	98	461.952755
