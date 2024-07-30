@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders - Holt Renfrew Management System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Holt Renfrew Management System</h1>
+        <button class="btn-home" onclick="goHome()">
+            <i class="fas fa-home"></i> Home
+        </button>
+    </header>
+    <main>
+        <div class="section">
+            <h2>Orders</h2>
+            <div class="button-container">
+                <button class="btn-open-popup" onclick="add('order')"><i class="fas fa-plus"></i></button>
+                <button class="btn-summary" onclick="showSummary('order')"><i class="fas fa-list"></i></button>
+            </div>            
+            <div id="addTable"></div>
+            <div id="view"></div>
+            <div id="summary"></div>
+            <table id="order-table"></table>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+    <script>
+        init("order");
+    </script>
+</body>
+</html>
