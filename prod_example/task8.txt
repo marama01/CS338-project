@@ -1,1 +1,0 @@
-The sql queries developed from task 5 did not have any performance bottle neck.
