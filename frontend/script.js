@@ -143,8 +143,10 @@ async function createSummaryTable(name) {
 
   const closeButton = document.createElement("button");
   closeButton.className = "btn-close-popup";
-  closeButton.setAttribute("onclick","toggleSummary()");
-  closeButton.innerHTML = "Close";
+  closeButton.setAttribute("onclick", "toggleSummary()");
+  const closeIcon = document.createElement("i");
+  closeIcon.className = "fas fa-times"; 
+  closeButton.appendChild(closeIcon);
   box.appendChild(table);
   box.appendChild(closeButton);
 }

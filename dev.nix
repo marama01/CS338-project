@@ -6,6 +6,8 @@ pkgs.mkShellNoCC {
       ps.flask 
       ps.flask-cors
       ps.mysql-connector
+      ps.pandas
+      ps.faker
       ]))
     curl
     jq

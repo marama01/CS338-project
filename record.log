@@ -3,792 +3,86 @@ INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
-INFO:app:Fetching brand
-INFO:app:<Response 535 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [30/Jun/2024 16:20:08] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 535 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [30/Jun/2024 16:23:17] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 535 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [30/Jun/2024 16:23:42] "GET /brand HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:app:Fetching branch
+INFO:app:<Response 14291 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:33:46] "GET /branch HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:app:Fetching branch
+INFO:app:<Response 1302 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:06] "GET /branch HTTP/1.1" 200 -
+INFO:app:Fetching branch
+INFO:app:<Response 1302 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:06] "GET /branch HTTP/1.1" 200 -
+INFO:app:<Response 1077 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:07] "GET /branch-summary/ HTTP/1.1" 200 -
 INFO:app:Fetching brand
-INFO:app:<Response 535 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 15:34:17] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 535 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 15:34:18] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 15:34:20] "[35m[1mGET /brand/2 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 15:34:21] "[35m[1mGET /brand/2 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 15:34:22] "[35m[1mGET /brand/2 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 15:34:22] "[35m[1mGET /brand/2 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 15:34:22] "[35m[1mGET /brand/2 HTTP/1.1[0m" 500 -
+INFO:app:<Response 1568 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:10] "GET /brand HTTP/1.1" 200 -
+INFO:app:<Response 1116 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:11] "GET /brand-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching customer
+INFO:app:<Response 1663 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:14] "GET /customer HTTP/1.1" 200 -
+INFO:app:<Response 2841 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:15] "GET /customer-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching employee
+INFO:app:<Response 1522 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:17] "GET /employee HTTP/1.1" 200 -
+INFO:app:<Response 1077 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:18] "GET /employee-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching order
+INFO:app:<Response 3054 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:21] "GET /order HTTP/1.1" 200 -
+INFO:app:<Response 4052 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:21] "GET /order-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching product
+INFO:app:<Response 1787 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:24] "GET /product HTTP/1.1" 200 -
+INFO:app:<Response 58 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:25] "GET /product-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching shipping
+INFO:app:<Response 2055 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:27] "GET /shipping HTTP/1.1" 200 -
+INFO:app:<Response 2055 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:28] "GET /shipping-summary/ HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
+INFO:werkzeug: * Debugger PIN: 508-898-222
 INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:51:59] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:52:06] "GET /brand-summary/ HTTP/1.1" 200 -
+INFO:app:<Response 1568 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:53:25] "GET /brand HTTP/1.1" 200 -
+INFO:app:<Response 1116 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:53:25] "GET /brand-summary/ HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:53:20] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:53:26] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:53:32] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 294 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:53:36] "GET /brand/2 HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:53:39] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:58:11] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 21:58:12] "GET /brand HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 508-898-222
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:02:28] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:02:37] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:02:44] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:05:26] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:05:28] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:07:13] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:07:14] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:07:28] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:20] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:23] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:26] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:30] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:34] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:46] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:51] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:55] "GET /brand/6 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:56] "GET /brand/6 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:57] "GET /brand/4 HTTP/1.1" 200 -
-INFO:app:<Response 294 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:08:57] "GET /brand/3 HTTP/1.1" 200 -
-INFO:app:<Response 294 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:02] "GET /brand/3 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:04] "GET /brand/4 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:05] "GET /brand/4 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:05] "GET /brand/4 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:06] "GET /brand/5 HTTP/1.1" 200 -
-INFO:app:<Response 294 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:07] "GET /brand/3 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:46] "GET /brand/4 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:47] "GET /brand/4 HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:47] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 294 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:51] "GET /brand/2 HTTP/1.1" 200 -
-INFO:app:<Response 294 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:52] "GET /brand/3 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:54] "GET /brand/5 HTTP/1.1" 200 -
-INFO:app:<Response 3 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:55] "GET /brand/5 HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:09:57] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:10:18] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:38] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:40] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:41] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:42] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:42] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:42] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:42] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:14:42] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:17:24] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:17:24] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:17:25] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:17:25] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:17:25] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:17:39] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:17:40] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:18:53] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:19:53] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:19:53] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:19:54] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:27:01] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:27:02] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:28:07] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:28:07] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:28:19] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:28:20] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:28:34] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 294 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:28:38] "GET /brand/2 HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:29:38] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:31:46] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:31:47] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:53] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:54] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:55] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:55] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:56] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:56] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:56] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:33:57] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:35:25] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:35:27] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:35:44] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:41:34] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:41:35] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:43:38] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:43:39] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:43:48] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:43:48] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:43:49] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:43:58] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:00] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:14] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:16] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:24] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:25] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:54] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:55] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:56] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:56] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:57] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:57] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:44:57] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:45:15] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:45:20] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:45:21] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:47:03] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:47:04] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:47:04] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:47:08] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:47:16] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:48:02] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:48:03] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:48:05] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:48:55] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:08] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:12] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:34] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:36] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:52] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:52] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:52] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:52] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:49:53] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:50:00] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:50:01] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:51:04] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:51:05] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:51:12] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:51:19] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:51:39] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:51:39] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:52:36] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:52:43] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:52:49] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:52:54] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:53:24] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Updating Brand
-INFO:app:SELECT * FROM Brand WHERE BrandID = '1'
-INFO:app:Updating the following to brand table:
-INFO:app:BrandId: 1
-INFO:app:BrandName: Brand A
-INFO:app:query:UPDATE Brand SET BrandName = 'Brand A', BrandDescription = 'shanshan is my son' WHERE BrandID = '1'
-INFO:app:Fetching brand
-INFO:app:<Response 869 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:53:56] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:53:56] "[35m[1mPOST /brand/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:00] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:00] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 869 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:00] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:01] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:01] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 869 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:02] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:03] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:03] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 869 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:03] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:04] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:04] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 869 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:05] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:08] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:08] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 869 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:09] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:10] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:10] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 869 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:10] "GET /brand HTTP/1.1" 200 -
-INFO:app:Updating Brand
-INFO:app:SELECT * FROM Brand WHERE BrandID = '1'
-INFO:app:Updating the following to brand table:
-INFO:app:BrandId: 1
-INFO:app:BrandName: Brand A
-INFO:app:query:UPDATE Brand SET BrandName = 'Brand A', BrandDescription = '123' WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:23] "[35m[1mPOST /brand/1 HTTP/1.1[0m" 500 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:23] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:24] "OPTIONS /brand/2 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '2'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:24] "DELETE /brand/2 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:25] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:25] "OPTIONS /brand/2 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '2'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:25] "DELETE /brand/2 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:26] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:26] "OPTIONS /brand/2 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '2'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:26] "DELETE /brand/2 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:26] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:27] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:27] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:27] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:27] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:27] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:28] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:28] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:28] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:28] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:28] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:29] "OPTIONS /brand/3 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '3'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:29] "DELETE /brand/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:29] "OPTIONS /brand/3 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '3'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:29] "DELETE /brand/3 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:29] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:39] "OPTIONS /brand/5 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '5'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:39] "DELETE /brand/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:40] "OPTIONS /brand/5 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '5'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:40] "DELETE /brand/5 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 769 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:40] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:41] "OPTIONS /brand/4 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '4'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:41] "DELETE /brand/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:41] "OPTIONS /brand/4 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '4'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:41] "DELETE /brand/4 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 684 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:41] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:42] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:42] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:42] "OPTIONS /brand/1 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '1'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:42] "DELETE /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 684 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:42] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:43] "OPTIONS /brand/2 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '2'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:43] "DELETE /brand/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:43] "OPTIONS /brand/2 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '2'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:43] "DELETE /brand/2 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 684 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:43] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:44] "OPTIONS /brand/3 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '3'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:44] "DELETE /brand/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:44] "OPTIONS /brand/3 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '3'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:44] "DELETE /brand/3 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 684 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:44] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:45] "OPTIONS /brand/6 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '6'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:45] "DELETE /brand/6 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:45] "OPTIONS /brand/6 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '6'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:45] "DELETE /brand/6 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 599 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:45] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:46] "OPTIONS /brand/7 HTTP/1.1" 200 -
-INFO:app:Deleting Brand
-INFO:app:query:DELETE FROM Brand WHERE BrandID = '7'
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:46] "DELETE /brand/7 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:46] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:54:58] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:55:00] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:55:09] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:55:51] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:55:53] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:55:57] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:58:48] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:58:50] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:59:15] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:59:16] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:59:18] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:59:42] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:59:45] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 22:59:47] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:00:07] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:00:08] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:00:56] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:00:57] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:00:57] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:01:05] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:01:06] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:01:07] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:01:55] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:01:55] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:01:56] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:23] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:24] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:30] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:31] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:40] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:41] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:57] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:02:58] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:25] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:26] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:27] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:33] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:33] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:34] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:40] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:41] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:42] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:44] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:55] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:55] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:03:56] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:04:05] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:04:06] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:04:06] "GET /brand/1 HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:04:11] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 514 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:04:18] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 354 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:04:19] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 391 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:04:22] "GET /brand/1 HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
-INFO:app:Fetching brand
-INFO:app:<Response 854 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:14:20] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:16:19] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:16:21] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 83020 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:16:29] "GET /brand/0 HTTP/1.1" 200 -
-INFO:app:<Response 60809 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:16:35] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 83020 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:16:51] "GET /brand/0 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:18:15] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:18:30] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:18:46] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:19:08] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:19:28] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:19:35] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:19:44] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:19:53] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 83020 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:20:05] "GET /brand/0 HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:20:40] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:21:15] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:21:31] "GET /brand HTTP/1.1" 200 -
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 23:22:00] "GET /brand HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 157-331-788
-INFO:app:Fetching brand
-INFO:app:<Response 243201 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:03:17] "GET /brand HTTP/1.1" 200 -
-INFO:app:<Response 83020 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:03:21] "GET /brand/0 HTTP/1.1" 200 -
-INFO:app:<Response 60809 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:04:06] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 60809 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:05:01] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 411 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:31:28] "GET /brand/35 HTTP/1.1" 200 -
-INFO:app:<Response 60809 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:48:10] "GET /brand-summary/ HTTP/1.1" 200 -
-INFO:app:<Response 97 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:48:24] "GET /brand/17 HTTP/1.1" 200 -
-INFO:app:<Response 212 bytes [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 21:48:27] "GET /brand/14 HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:app:Fetching brand
+INFO:app:<Response 1577831 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:21] "GET /brand HTTP/1.1" 200 -
+INFO:app:Fetching brand
+INFO:app:<Response 1577831 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:23] "GET /brand HTTP/1.1" 200 -
+INFO:app:Fetching customer
+INFO:app:<Response 1650858 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:27] "GET /customer HTTP/1.1" 200 -
+INFO:app:Fetching shipping
+INFO:app:<Response 2052201 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:39] "GET /shipping HTTP/1.1" 200 -

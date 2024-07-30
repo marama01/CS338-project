@@ -1,6 +1,7 @@
 import pandas as pd
 from faker import Faker
 import random
+import argparse
 
 fake = Faker()
 
@@ -8,10 +9,16 @@ def generate_branches(num_entries):
     data = []
     branch_ids = [str(fake.uuid4()) for _ in range(num_entries)]
     for branch_id in branch_ids:
+        branch_name = fake.city().replace('"', '').replace("'", "")
+        while ',' in branch_name:
+            branch_name = fake.city().replace('"', '').replace("'", "")
+
+        location = fake.city()
+
         data.append({
             'BranchID': branch_id,
-            'BranchName': fake.city(),
-            'Location': fake.address().replace('\n', ', ')
+            'BranchName': branch_name,
+            'Location': location
         })
     return pd.DataFrame(data), branch_ids
 
@@ -19,10 +26,18 @@ def generate_brands(num_entries):
     data = []
     brand_ids = [str(fake.uuid4()) for _ in range(num_entries)]
     for brand_id in brand_ids:
+        brand_name = fake.company().replace('"', '').strip()
+        while ',' in brand_name:
+            brand_name = fake.company().replace('"', '').strip()
+
+        brand_description = fake.catch_phrase().replace('"', '').strip()
+        while ',' in brand_description:
+            brand_description = fake.catch_phrase().replace('"', '').strip()
+
         data.append({
             'BrandID': brand_id,
-            'BrandName': fake.company(),
-            'BrandDescription': fake.catch_phrase()
+            'BrandName': brand_name,
+            'BrandDescription': brand_description
         })
     return pd.DataFrame(data), brand_ids
 
@@ -34,7 +49,7 @@ def generate_customers(num_entries):
             'CustomerID': customer_id,
             'Name': fake.name(),
             'Email': fake.email(),
-            'Phone': fake.phone_number()
+            'Phone': fake.numerify('(###) ###-####')
         })
     return pd.DataFrame(data), customer_ids
 
@@ -45,7 +60,7 @@ def generate_employees(num_entries, branch_ids):
         data.append({
             'EmployeeID': employee_id,
             'Name': fake.name(),
-            'Branch_ID': random.choice(branch_ids)
+            'BranchID': random.choice(branch_ids)
         })
     return pd.DataFrame(data), employee_ids
 
@@ -54,11 +69,11 @@ def generate_orders(num_entries, product_ids, customer_ids, employee_ids):
     order_ids = [str(fake.uuid4()) for _ in range(num_entries)]
     for order_id in order_ids:
         data.append({
-            'OrderNum': order_id,
+            'OrderID': order_id,
             'ProductID': random.choice(product_ids),
             'Quantity': random.randint(1, 10),
             'CustomerID': random.choice(customer_ids),
-            'OrderDate': fake.date_time_this_year(),
+            'OrderDate': fake.date_time(),
             'EmployeeID': random.choice(employee_ids)
         })
     return pd.DataFrame(data), order_ids
@@ -75,18 +90,39 @@ def generate_products(num_entries, brand_ids):
         })
     return pd.DataFrame(data), product_ids
 
+def generate_orders(num_entries, product_ids, customer_ids, employee_ids):
+    data = []
+    order_ids = [str(fake.uuid4()) for _ in range(num_entries)]
+    for order_id in order_ids:
+        data.append({
+            'OrderID': order_id,
+            'ProductID': random.choice(product_ids),
+            'Quantity': random.randint(1, 10),
+            'CustomerID': random.choice(customer_ids),
+            'OrderDate': fake.date_this_year(),
+            'EmployeeID': random.choice(employee_ids)
+        })
+    return pd.DataFrame(data), order_ids
+
 def generate_shipping(num_entries, order_ids):
     data = []
     for _ in range(num_entries):
+        carrier_name = fake.company().replace('"', '').replace("'", "")
+        while ',' in carrier_name:
+            carrier_name = fake.company().replace('"', '').replace("'", "")
         data.append({
             'ShippingID': str(fake.uuid4()),
-            'OrderNum': random.choice(order_ids), 
-            'CarrierName': fake.company(),
-            'ShipDate': fake.date_time_this_year()
+            'OrderID': random.choice(order_ids),
+            'CarrierName': carrier_name,
+            'ShipDate': fake.date_time()
         })
     return pd.DataFrame(data)
 
-num_entries = 10000
+parser = argparse.ArgumentParser(description="Process some integers.")
+parser.add_argument('num_entries', nargs='?', type=int, default=10000, help='Number of entries')
+args = parser.parse_args()
+num_entries = args.num_entries
+
 branches, branch_ids = generate_branches(num_entries)
 brands, brand_ids = generate_brands(num_entries)
 customers, customer_ids = generate_customers(num_entries)

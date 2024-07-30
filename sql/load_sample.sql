@@ -33,16 +33,16 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE 'sample_data/sample_order.csv'
-INTO TABLE `Order`
+INFILE 'sample_data/sample_product.csv'
+INTO TABLE Product
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE 'sample_data/sample_product.csv'
-INTO TABLE Product
+INFILE 'sample_data/sample_order.csv'
+INTO TABLE `Order`
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
 LINES TERMINATED BY '\n'

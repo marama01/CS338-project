@@ -62,6 +62,7 @@ sample output for:
 |       1 | Brand A   |
 +---------+-----------+
 
+
 R10/11:
 
 SELECT Brand.BrandName, Product.ProductName, Product.ProductPrice
@@ -73,3 +74,17 @@ SELECT Brand.BrandName, COUNT(Product.ProductID), AVG(Product.ProductPrice)
 FROM Brand
 JOIN Product ON Product.BrandID = Brand.BrandID
 GROUP BY Brand.BrandID
+
+
+
+fancy feature
+1. UI
+2. sanitize sql injection 
+    Our sql scheme follows the parameterized querries to prevent from sql
+    inections. And the MySQLdb library will escape unwatned strings
+    automatically for us.
+3. resoltion for millions records
+4. corner issues
+    Now rows that have foreign keys referring to the primary key can also be
+    delted.
+5. script 

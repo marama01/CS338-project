@@ -1,7 +1,7 @@
 USE testdb;
 
 LOAD DATA LOCAL
-INFILE 'gen_prod_data/prod_branches.csv'
+INFILE 'prod_data/prod_branches.csv'
 INTO TABLE Branch
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
@@ -9,7 +9,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE 'gen_prod_data/prod_brands.csv'
+INFILE 'prod_data/prod_brands.csv'
 INTO TABLE Brand
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
@@ -17,7 +17,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE 'gen_prod_data/prod_customers.csv'
+INFILE 'prod_data/prod_customers.csv'
 INTO TABLE Customer
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
@@ -25,7 +25,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE 'gen_prod_data/prod_employees.csv'
+INFILE 'prod_data/prod_employees.csv'
 INTO TABLE Employee
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
@@ -33,15 +33,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE 'gen_prod_data/prod_orders.csv'
-INTO TABLE `Order`
-FIELDS TERMINATED BY ','
-ENCLOSED BY ""
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-LOAD DATA LOCAL
-INFILE 'gen_prod_data/prod_products.csv'
+INFILE 'prod_data/prod_products.csv'
 INTO TABLE Product
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
@@ -49,7 +41,15 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE 'gen_prod_data/prod_shipping.csv'
+INFILE 'prod_data/prod_orders.csv'
+INTO TABLE `Order`
+FIELDS TERMINATED BY ','
+ENCLOSED BY ""
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL
+INFILE 'prod_data/prod_shipping.csv'
 INTO TABLE Shipping
 FIELDS TERMINATED BY ','
 ENCLOSED BY ""
