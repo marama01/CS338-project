@@ -1,0 +1,90 @@
+R6:
+a: Retrieve the Brand table entries for user's to see available Brands.
+The users will use this by entering /frontend/Web/Brand.html, from their the
+frontend will make the query below to the backend to retrieve all brands information to be
+displayed on the user's screen.
+`SELECT * FROM Brand`
+
+sample output: 
++---------+-----------+
+| BrandID | BrandName |
++---------+-----------+
+|       1 | Brand A   |
+|       2 | Brand B   |
+|       3 | Brand C   |
+|       4 | Brand D   |
+|       5 | Brand E   |
+|       6 | Brand F   |
+|       7 | Brand G   |
+|       8 | Brand H   |
+|       9 | Brand I   |
+|      10 | Brand J   |
++---------+-----------+
+
+R7:
+a: Update an existing brand name. In case a brand decided to rename we have
+this option for them to edit their existing names. This can be done by pressing
+the 'edit' button corresponding to the brand it wants to edit. Then changing
+the fields it wants to update.
+
+
+`UPDATE Brand SET BrandName = '{brandName}' WHERE BrandID = '{brandID}'`
+b: no output.
+
+R8:
+a: Delete an existing brand name. This can be done by pressing
+the 'del' button corresponding to the brand it wants to delete.
+
+`DELETE FROM Brand WHERE BrandID = '{brandID}'`
+b: no output.
+
+R9:
+a: Insert a new brand . This can be done by pressing
+the 'add' button and entering the relevant information inside the form and
+pressing submit.
+
+`INSERT INTO Brand (BrandID, BrandName) VALUES ('{brandID}', '{brandName}')`
+b: no output.
+
+NOTE: R7 and R9, the backend will check if a BrandID exists if so it will
+update else it will insert.
+`
+  query = f"SELECT * FROM Brand WHERE BrandID = '{brandID}'"
+  cursor.execute(query)
+  res = cursor.fetchone()
+  if not res:
+`
+sample output for:
+"SELECT * FROM Brand WHERE BrandID = '1'"
++---------+-----------+
+| BrandID | BrandName |
++---------+-----------+
+|       1 | Brand A   |
++---------+-----------+
+
+
+R10/11:
+
+SELECT Brand.BrandName, Product.ProductName, Product.ProductPrice
+FROM Brand
+JOIN Product on Product.BrandID = Brand.BrandID
+WHERE Brand.BrandID = {brand_id}
+
+SELECT Brand.BrandName, COUNT(Product.ProductID), AVG(Product.ProductPrice)
+FROM Brand
+JOIN Product ON Product.BrandID = Brand.BrandID
+GROUP BY Brand.BrandID
+
+
+
+fancy feature
+1. UI
+2. sanitize sql injection 
+    Our sql scheme follows the parameterized querries to prevent from sql
+    inections. And the MySQLdb library will escape unwatned strings
+    automatically for us.
+3. resoltion for millions records
+4. corner issues
+    Now rows that have foreign keys referring to the primary key can also be
+    delted.
+5. script 

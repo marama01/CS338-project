@@ -1,0 +1,88 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:app:Fetching branch
+INFO:app:<Response 14291 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:33:46] "GET /branch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:app:Fetching branch
+INFO:app:<Response 1302 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:06] "GET /branch HTTP/1.1" 200 -
+INFO:app:Fetching branch
+INFO:app:<Response 1302 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:06] "GET /branch HTTP/1.1" 200 -
+INFO:app:<Response 1077 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:07] "GET /branch-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching brand
+INFO:app:<Response 1568 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:10] "GET /brand HTTP/1.1" 200 -
+INFO:app:<Response 1116 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:11] "GET /brand-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching customer
+INFO:app:<Response 1663 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:14] "GET /customer HTTP/1.1" 200 -
+INFO:app:<Response 2841 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:15] "GET /customer-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching employee
+INFO:app:<Response 1522 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:17] "GET /employee HTTP/1.1" 200 -
+INFO:app:<Response 1077 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:18] "GET /employee-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching order
+INFO:app:<Response 3054 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:21] "GET /order HTTP/1.1" 200 -
+INFO:app:<Response 4052 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:21] "GET /order-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching product
+INFO:app:<Response 1787 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:24] "GET /product HTTP/1.1" 200 -
+INFO:app:<Response 58 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:25] "GET /product-summary/ HTTP/1.1" 200 -
+INFO:app:Fetching shipping
+INFO:app:<Response 2055 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:27] "GET /shipping HTTP/1.1" 200 -
+INFO:app:<Response 2055 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:34:28] "GET /shipping-summary/ HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:app:Fetching brand
+INFO:app:<Response 1568 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:53:25] "GET /brand HTTP/1.1" 200 -
+INFO:app:<Response 1116 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:53:25] "GET /brand-summary/ HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 508-898-222
+INFO:app:Fetching brand
+INFO:app:<Response 1577831 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:21] "GET /brand HTTP/1.1" 200 -
+INFO:app:Fetching brand
+INFO:app:<Response 1577831 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:23] "GET /brand HTTP/1.1" 200 -
+INFO:app:Fetching customer
+INFO:app:<Response 1650858 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:27] "GET /customer HTTP/1.1" 200 -
+INFO:app:Fetching shipping
+INFO:app:<Response 2052201 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 22:14:39] "GET /shipping HTTP/1.1" 200 -
